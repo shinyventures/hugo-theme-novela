@@ -132,6 +132,12 @@
     }
 }
 
+@media screen and (max-width: $phablet) {
+    .nav-container{
+        padding-top: 0px;
+    }
+}
+
 .logo-link{
     position: relative;
     display: -webkit-box;
